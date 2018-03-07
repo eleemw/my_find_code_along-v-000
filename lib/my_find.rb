@@ -1,5 +1,5 @@
 require 'pry'
-# #my_find will return the first element in the array that evaluates to true 
+# #my_find will return the first element in the array that evaluates to true
 
 def my_find(collection)
   i = 0
@@ -14,7 +14,7 @@ def my_find(collection)
   end
 end
 
-## EXAMPLE if we call #my_find with 
+## EXAMPLE if we call #my_find with
 # collection = (1..100).to_a
 # my_find(collection) {|i| i % 3 == 0 and i % 5 == 0}
 
